@@ -1,0 +1,24 @@
+.groupImageContainer {
+  position: relative;
+}
+
+.groupImage {
+  position: absolute;
+  max-width: 20rem;
+  margin-left: 0px;
+}
+
+.groupChat {
+  position: absolute;
+  top: 11.4rem;
+  background: var(--clr-primary-8);
+  cursor: pointer;
+  color: var(--clr-primary-1);
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+}
+.groupInfo p {
+  position: absolute;
+  max-width: 20rem;
+  margin-top: 15rem;
+}

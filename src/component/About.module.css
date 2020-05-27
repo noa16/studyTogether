@@ -1,0 +1,32 @@
+.aboutCenter {
+}
+
+.aboutInfo {
+}
+
+.aboutImg {
+}
+
+@media screen and (min-width: 992px) {
+  .aboutCenter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .aboutImg {
+    flex: 0 0 calc(50% - 0.1rem);
+    margin-bottom: 0;
+    align-self: center;
+  }
+  .aboutInfo {
+    flex: 0 0 calc(50% - 0.1rem);
+    margin-bottom: 0;
+    align-self: center;
+  }
+}
+
+.aboutPhoto {
+  position: relative;
+  max-width: 25rem;
+  margin-left: 2rem;
+}
