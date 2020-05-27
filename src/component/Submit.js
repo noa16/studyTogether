@@ -24,8 +24,8 @@ class Submit extends Component {
       <section class="section contact" className={classes.submit} id="contact">
         <div class="section-center contact-center">
           <article className={classes.submitTitle}>
-            <h3>want latest tour info and updates?</h3>
-            <p>Sign up for newsletter and stay up to date</p>
+            <h3>Add Group</h3>
+            <p>Add your team and everyone could join you!</p>
           </article>
           <form
             className={classes.form}
